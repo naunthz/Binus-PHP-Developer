@@ -1,7 +1,9 @@
-let angka = parseInt(prompt("Masukkan sebuah angka:"));
+let angka = parseInt(prompt("Masukkan angka: ")); 
 
-if (angka % 2 === 0) {
-    console.log(`Angka ${angka} adalah angka Genap.`);
-} else {
-    console.log(`Angka ${angka} adalah angka Ganjil.`);
+if (angka % 2 === 0) {              
+    console.log("Genap");            
+} else if (angka % 2 !== 0) {         
+    console.log("Ganjil");            
+} else {                             
+    console.log("Input tidak valid"); 
 }
